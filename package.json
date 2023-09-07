@@ -1,6 +1,6 @@
 {
 	"name": "eslint-plugin-optional-chain",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "This is an ESLint plugin that provides a custom rule to automatically convert dot operators (.) to optional chain operators (?.) in your code.",
 	"keywords": [
 		"eslint",
