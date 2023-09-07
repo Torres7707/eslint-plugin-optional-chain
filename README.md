@@ -36,14 +36,22 @@ Then configure the rules you want to use under the rules section.
 }
 ```
 
+## TODO
+
+- [ ] ignore assignment expressions
+- [ ] Identify the index value（foo['bar'] or array[1]）
+- [ ] Identify the function call value（foo.bar()）
+
+- ...
+
 ## Rules
 
 <!-- begin auto-generated rules list -->
 
 🔧 Automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/user-guide/command-line-interface#--fix).
 
-| Name                                                     | Description                                                                            | 🔧 |
-| :------------------------------------------------------- | :------------------------------------------------------------------------------------- | :- |
-| [auto-optional-chain](docs/rules/auto-optional-chain.md) | Automatically convert dot operators (.) to optional chain operators (?.) in your code. | 🔧 |
+| Name                                                     | Description                                                                            | 🔧  |
+| :------------------------------------------------------- | :------------------------------------------------------------------------------------- | :-- |
+| [auto-optional-chain](docs/rules/auto-optional-chain.md) | Automatically convert dot operators (.) to optional chain operators (?.) in your code. | 🔧  |
 
 <!-- end auto-generated rules list -->
